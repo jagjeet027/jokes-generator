@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    
+  }
+  header {
+    background-color: #333;
+    padding: 20px;
+    
+  }
+  
+  nav ul {
+    font-size: 20px;
+    list-style-type: none;
+    padding-bottom:15px;
+    margin: 0;
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%;
+    background-color: #333; 
+    z-index: 999;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+    margin-top: 50px;
+  }
+  
+  .genre-box {
+    width: 200px; 
+    position: fixed; 
+    top: 50px; 
+    left: 0;   
+    bottom: 0; 
+    background-color: #f0e2e2; 
+    padding: 20px;
+    overflow-y: auto; 
+  }
+  
+  .genre-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .genre-box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .genre-box ul li {
+    margin-bottom: 10px;
+  }
+  
+  .genre-box ul li a {
+    text-decoration: none;
+    color: #1c1f20;
+  }
+  .genre-box ul li a:hover {
+    text-decoration: none;
+    color: #fffcfc;
+    font-size: 20px;
+    border: 5px solid rgb(148, 145, 145);
+    border-radius: 10%;
+    background-color: rgb(148, 145, 145);
+    background-size: cover;
+  }
+  
+  .main-content {
+    margin-left: 220px;
+    flex: 2;
+    padding: 20px;
+             
+  }
+  .main-content h1 p {
+    font-family: "Niconne", cursive;
+    font-weight: 400;
+    font-style: normal;
+             
+  }
+  .main-content h1{
+    font-family: "Rye", serif;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+    font-style: normal; 
+    color: red;
+    text-align: center;
+  }
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    justify-content: space-between;
+    font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+
+  }
+  
+  .movie {
+    flex: 0 0 calc(33.33% - 20px);
+   flex-wrap: wrap;
+    background-color: #ffffff;
+    text-align: center;
+  margin-bottom: 20px; 
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  aspect-ratio: 9/3;
+  }
+  .movie img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+  }  
+
+  .btn{
+    width: 50%;
+    height: 30%;
+    background-color: blue;
+    color: white;
+    border:none;
+  }
+  .btn:hover{
+    background-color: red;
+    width: 55%;
+    height: 35%;
+    border: white;
+    color: black;
+  }
